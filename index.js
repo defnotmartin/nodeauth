@@ -27,7 +27,7 @@ app.use(helmet.hidePoweredBy());
 app.use(cors());
 app.use(bodyParser.json());
 app.set('trust proxy', 1);
-
+app.use(bodyParser.urlencoded({ extended: true }));
 /*essential. basically everything happens in here. and importing stuff.*/
 app.use('/api', apiRouter);
 /*main course*/
