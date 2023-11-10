@@ -17,10 +17,10 @@ const PORT = process.env.PORT || 9000;
 
 //excessive logging
 
-if (process.env.NODE_ENV !== 'production') {
-  const morgan = require('morgan');
-  app.use(morgan('dev'));
-}
+//if (process.env.NODE_ENV !== 'production') {
+//  const morgan = require('morgan');
+ // app.use(morgan('dev'));
+//}
 
 app.use(helmet());
 app.use(helmet.hidePoweredBy());
