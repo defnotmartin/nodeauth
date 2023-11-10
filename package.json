@@ -47,7 +47,6 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0",
-    "morgan": "^1.9.1"
+    "concurrently": "^5.1.0"
   }
 }
